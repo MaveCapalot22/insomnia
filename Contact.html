@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us - INSOMNIA</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Platypi;
+      background: url('light-nature-sky-531756.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: rgb(0, 0, 0);
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    header img {
+      width: 100px;
+    }
+
+    nav {
+      margin-left: auto;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .content {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    form {
+      max-width: 500px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input, textarea {
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      font-size: 16px;
+    }
+
+    input[type="submit"] {
+      background: black;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    input[type="submit"]:hover {
+      background: white;
+      color: black;
+    }
+
+    .footer {
+      background: rgba(0,0,0,0.7);
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+      margin-top: 50px;
+    }
+
+    .email-form input[type="email"] {
+      padding: 10px;
+      margin-right: 10px;
+      width: 250px;
+    }
+
+    .email-form input[type="submit"] {
+      padding: 10px 20px;
+    }
+
+    .socials a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="text-border">
+
+    <header>
+      <img src="3dgifmaker18911" alt="Logo">
+      <nav>
+        <a href="home.html">Home</a>
+        <a href="ABOUT.html">About</a>
+        <a href="SHOP.html">Shop</a>
+        <a href="Contact.html">Contact</a>
+        <a href="FAQ.html">FAQ</a>
+      </nav>
+    </header>
+
+    <div class="content">
+      <h1>Contact Us</h1>
+      <p>Have a question or want to get in touch? Fill out the form below and we’ll respond shortly.</p>
+
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <input type="submit" value="Send Message">
+      </form>
+    </div>
+
+    <div class="footer">
+      <div class="email-form">
+        <form action="#" method="post">
+          <label for="email">Join our mailing list:</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          <input type="submit" value="Subscribe">
+        </form>
+      </div>
+      <div class="socials" style="margin-top: 10px;">
+        <a href="https://www.instagram.com/inso.mnia2k?igsh=MWRjZzBkNnZmdWhtZA==">Instagram</a>
+        <a href="https://www.facebook.com/share/1FX94D74PE/?mibextid=wwXIfr">Facebook</a>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
